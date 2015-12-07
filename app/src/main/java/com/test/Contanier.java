@@ -1,6 +1,7 @@
 package com.test;
 
 import android.graphics.Canvas;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,8 +19,9 @@ public class Contanier {
 
     public void draw(Canvas canvas){
         canvas.save();
-        canvas.translate(getX(),getY());
+        canvas.translate(getX(), getY());
         childrenView(canvas);
+        Log.i("dd","dddd");
         for(Contanier c:children){
             c.draw(canvas);
         }
