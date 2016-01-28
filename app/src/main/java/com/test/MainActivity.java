@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         MyView my = new MyView(this);
-//        CustomView view=new CustomView(this);
+        CustomView view=new CustomView(this);
 //        LogicView view=new LogicView(this);
       /*  MyTest view = new MyTest(this);
         view.setBackgroundColor(Color.WHITE);*/
