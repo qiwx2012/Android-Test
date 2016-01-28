@@ -21,6 +21,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback {
     private Circle circle = null;
 
 
+
     public MyView(Context context) {
         super(context);
         contanier = new Contanier();
