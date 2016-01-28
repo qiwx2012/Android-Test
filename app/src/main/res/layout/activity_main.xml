@@ -11,8 +11,21 @@
 
     <com.test.view.NumText
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="30dp"
         my:xScrool="true"
         my:lineNum="5" />
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="fill_parent"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn"
+        android:text="抖动"
+        android:layout_below="@+id/edt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>
